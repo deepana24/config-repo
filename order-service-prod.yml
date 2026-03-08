@@ -2,7 +2,7 @@ global:
   message: Welcome to Order Service Prod Environment!!!
 server:
   port: 8085
-message: Hello from Prod!!
+message: Hello from Order Prod!!
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/demo
