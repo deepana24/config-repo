@@ -1,0 +1,14 @@
+global:
+  message: Welcome to Order Service Prod Environment!!!
+server:
+  port: 8085
+message: Hello from Prod!!
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo
+    username: postgres
+    password: pgadmin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
