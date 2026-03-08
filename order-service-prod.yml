@@ -5,7 +5,7 @@ server:
 message: Hello from Order Prod!!
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/demo
+    url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: pgadmin
   jpa:
