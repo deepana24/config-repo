@@ -1,0 +1,14 @@
+global:
+  message: Welcome to Payment Service Prod Environment!!!
+server:
+  port: 8087
+message: Hello from Payment Prod!!
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking_ps_prod
+    username: postgres
+    password: pgadmin
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false

@@ -1,0 +1,14 @@
+global:
+  message: Welcome to Notification Service Prod Environment!!!
+server:
+  port: 8089
+message: Hello from Notification Prod!!
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking_ns_prod
+    username: postgres
+    password: pgadmin
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
