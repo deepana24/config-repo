@@ -7,7 +7,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/banking_ps
     username: postgres
-    password: pgadmin
+    password: postgres
   jpa:
     hibernate:
       ddl-auto: update
