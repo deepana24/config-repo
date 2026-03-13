@@ -1,0 +1,14 @@
+global:
+  message: Welcome to Payment Service Dev Environment!!!
+server:
+  port: 8086
+message: Hello from Payment Dev!!
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking_ps
+    username: postgres
+    password: pgadmin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

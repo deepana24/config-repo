@@ -1,0 +1,14 @@
+global:
+  message: Welcome to Notification Service Dev Environment!!!
+server:
+  port: 8088
+message: Hello from Notification Dev!!
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking_ns
+    username: postgres
+    password: pgadmin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

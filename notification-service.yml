@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: notification-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking_ns
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
